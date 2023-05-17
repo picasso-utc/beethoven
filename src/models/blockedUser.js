@@ -18,13 +18,13 @@ class BlockedUsers {
 class BlockedUser {
   constructor({
     id,
-    badge_uid,
+    cas,
     name,
     justification,
     date
   }) {
     this.id = id;
-    this.badge_uid = badge_uid;
+    this.cas = cas;
     this.name = name;
     this.justification = justification;
     this.date = date;
@@ -34,8 +34,8 @@ class BlockedUser {
     return this.id;
   }
 
-  getBadgeUID() {
-    return this.badge_uid;
+  getCas() {
+    return this.cas;
   }
 
   getName() {

@@ -31,9 +31,11 @@ const WebSocketManager = () => {
   const getBuyerInfo = React.useCallback((badgeID) => dispatch(buyerInformationsAPI.create({ badge_id: badgeID })), [dispatch]);
 
   const handlePayment = React.useCallback((badgeID) =>{
-    const blockedID = blockedUsers ? blockedUsers.getUsers().map(u => u.getBadgeUID()) : [];
+    const blockedCas = blockedUsers ? blockedUsers.getUsers().map(u => u.getCas()) : [];
 
-    if(blockedID.includes(badgeID)) {
+    //recuperer le cas depuis le badgeid (dependant de la simde car utilise ginger)
+
+    if(blockedCas.includes(badgeID)) {
       return (dispatch(transactionAPI.error({ error: { message: 'Utilisateur Bloqué'}})));
     }
 
