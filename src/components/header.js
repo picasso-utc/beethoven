@@ -40,6 +40,13 @@ const Header = ({ user, isLogged }) => {
             Vente
           </Button>
         </Link>
+        <Button
+          color="red"
+          className="button-disconnect"
+          onClick={handleLogout}
+        >
+          Déconnexion
+        </Button>
       </div>
     </div>
   );
