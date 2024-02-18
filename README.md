@@ -25,6 +25,11 @@ Installez l’ensemble des paquets nécessaires :
 npm install
 ```
 
+pour quickfix les pb:
+```
+npm audit fix --force
+```
+
 N'oubliez pas de créer le fichier *config.js* qui se situe dans le dossier **Utils**, à partir de *config_exemple.js*
 Pour avoir un fichier fonctionnel, veuillez contacter les Auteurs.
 
