@@ -1,7 +1,18 @@
 @import "../../../css/colors-hippic.scss";
+@font-face {
+  font-family:'tan-nimbus';
+  src: url('../../../fonts/TAN-NIMBUS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'tan-nimbus';
+}
 
 .modal-header {
   text-align: center;
+  border:none !important;
 }
 .modal-container {
   width: 100%;

@@ -30,7 +30,9 @@ const ConnexionManager = ({ open }) => {
   return (
     <React.Fragment>
       <Modal open={open} centered={false} size="mini">
-        <Modal.Header className="modal-header">- Connexion -</Modal.Header>
+        <Modal.Header className="modal-header">
+          <span>- CONNEXION -</span>
+        </Modal.Header>
         <Modal.Content className="modal-container">
           {renderContent(connexionBadge)}
         </Modal.Content>
