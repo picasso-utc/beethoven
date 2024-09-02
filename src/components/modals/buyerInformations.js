@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, Icon, Button } from "semantic-ui-react";
-import "./css/modals-hippic.scss";
+import "./css/modals-pictown.scss";
 import {
   buyerInformations as buyerInformationsAPI,
   articles as articlesAPI,

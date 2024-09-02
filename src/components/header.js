@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./css/header-hippic.scss";
+import "./css/header-pictown.scss";
 import { Button } from "semantic-ui-react";
 import { useDispatch } from "react-redux";
 import { logout, refreshUser } from "../api/connect";

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Modal, Button } from "semantic-ui-react";
-import "./css/modals-pixel.scss";
+import "./css/modals-pictown.scss";
 import { SalesLocation } from "../../models";
 import {
   salesLocations as salesLocationsAPI,

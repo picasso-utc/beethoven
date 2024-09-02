@@ -121,7 +121,7 @@ const PaymentResponse = ({ totalPrice, deleteAllSelection }) => {
   if(!reader) {
     return(
       <div className="payment-information">
-        Aucun lecteur de carte trouvé
+        Aucun lecteur de carte
       </div>
     );
   }
