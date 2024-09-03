@@ -1,14 +1,14 @@
 @import "../../../css/colors-pictown.scss";
 
 @font-face {
-  font-family:'DURANGO_WESTERN';
-  src: url('../../../fonts/Durango_Western.otf') format('truetype');
+  font-family:'WESTERN';
+  src: url('../../../fonts/Marlboro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 *{
-  font-family: 'DURANGO_WESTERN';
+  font-family: 'WESTERN';
   letter-spacing: 0.01em;
 }
 
