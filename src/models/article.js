@@ -14,7 +14,7 @@ class Article {
     this.name = name;
     this.categorie_id = categorie_id;
     this.fundation_id = fundation_id;
-    this.image_url = image_url;
+    this.image_url = 'https://pic.assos.utc.fr/compress?url='+image_url;
     this.price = price || 0;
     this.removed_in_event = removed_in_event;
   }
